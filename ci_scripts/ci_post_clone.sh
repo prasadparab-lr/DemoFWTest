@@ -11,7 +11,7 @@ touch ~/.netrc
 echo "machine github.com" > ~/.netrc
 ## write the username into the `netrc file
 echo "login elitesdk" >> ~/.netrc 
-## write the password, obtained from an environment variable, into the `netrc file
+## write the password, obtained from an environment variables, into the `netrc file
 echo "password ${SDK_TOKEN}" >> ~/.netrc
 
 
