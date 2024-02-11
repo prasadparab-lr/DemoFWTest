@@ -6,16 +6,22 @@
 //
 
 import UIKit
+import LRABCSDK
 
 class SDKLauncherViewController: UIViewController {
-
+    @IBOutlet weak var ssoTokenTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func launchTapped(_ sender: Any) {
+        guard let sso = ssoTokenTF.text else { return }
+        LRSDKConfigurator.launchSDK(ssoToken: sso, delegate: self)
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -26,4 +32,20 @@ class SDKLauncherViewController: UIViewController {
     }
     */
 
+}
+
+extension SDKLauncherViewController: LRSDKDelegate {
+    func isUserAlive(isUserActive: Bool) {
+        
+    }
+    
+    func userLogout() {
+        
+    }
+    
+    func backToHome() {
+        
+    }
+    
+    
 }
