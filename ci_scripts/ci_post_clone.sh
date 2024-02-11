@@ -15,5 +15,8 @@ echo "login elitesdk" >> ~/.netrc
 echo "password ${SDK_TOKEN}" >> ~/.netrc
 
 
+chmod 600 ~/.netrc
+
+
 # Install dependencies you manage with CocoaPods.
 pod install --repo-update
