@@ -16,4 +16,4 @@ echo "password ${SDK_TOKEN}" >> ~/.netrc
 
 
 # Install dependencies you manage with CocoaPods.
-pod install
+pod install --repo-update
