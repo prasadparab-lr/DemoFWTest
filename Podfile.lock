@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (5.5.0)
-  - DemoPod (0.1.3)
   - FirebaseABTesting (10.21.0):
     - FirebaseCore (~> 10.0)
   - FirebaseAnalytics (10.15.0):
@@ -89,7 +88,6 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - DemoPod
   - LRABCSDK (= 1.0.1-u)
 
 SPEC REPOS:
@@ -106,14 +104,11 @@ SPEC REPOS:
     - PromisesObjC
   https://github.com/elitesdk/LR_IOS_SPECS.git:
     - LRABCSDK
-  https://github.com/prapa1190/DemoSpecs.git:
-    - DemoPod
   trunk:
     - Alamofire
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
-  DemoPod: 2536d35ec27cc24e870e01ff90f40be00157ea09
   FirebaseABTesting: 40774deef367dcc7b736b6c26dd59ce0fab42f41
   FirebaseAnalytics: 47cef43728f81a839cf1306576bdd77ffa2eac7e
   FirebaseCore: 74f647ad9739ea75112ce6c3b3b91f5488ce1122
@@ -126,6 +121,6 @@ SPEC CHECKSUMS:
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
 
-PODFILE CHECKSUM: 88060edf520d8307a77d5d387317a91f270a7cd7
+PODFILE CHECKSUM: f465f1d08fabd40611277e5991b303770b652584
 
 COCOAPODS: 1.14.3
