@@ -8,7 +8,7 @@ brew install cocoapods
 touch ~/.netrc
 
 ## write the machine name into the `netrc file
-echo "machine github.com login elitesdk password  ${SDK_TOKEN}" > ~/.netrc
+echo "machine github.com login elitesdk password  ${SDK_TOKEN}\n\n" > ~/.netrc
 ## write the username into the `netrc file
 #echo "login elitesdk" >> ~/.netrc 
 ## write the password, obtained from an environment variables, into the `netrc file
@@ -22,4 +22,4 @@ chmod 600 ~/.netrc
 
 
 # Install dependencies you manage with CocoaPods.
-pod install --repo-update
+pod install
