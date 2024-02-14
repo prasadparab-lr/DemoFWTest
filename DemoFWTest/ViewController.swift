@@ -7,6 +7,7 @@
 
 import UIKit
 import Alamofire
+import DemoPod
 
 class ViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
@@ -35,6 +36,10 @@ class ViewController: UIViewController {
                     print("\(#function) : error : \(error)")
                 }
             }
+    }
+    
+    @IBAction func demoPodBtnTapped(_ sender: UIButton) {
+        DemoPodInitializer.shared.configure(ref: self)
     }
 }
 
