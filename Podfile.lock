@@ -76,7 +76,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.12.0):
     - GoogleUtilities/Logger
-  - LRABCSDK (1.0.1-u):
+  - LRABCSDK (1.0.2-u):
     - FirebaseAnalytics (~> 10.15.0)
     - FirebaseRemoteConfig (~> 10.15.0)
   - nanopb (2.30909.1):
@@ -88,7 +88,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - LRABCSDK (= 1.0.1-u)
+  - LRABCSDK (= 1.0.2-u)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -117,10 +117,10 @@ SPEC CHECKSUMS:
   FirebaseRemoteConfig: 64b6ada098c649304114a817effd7e5f87229b11
   GoogleAppMeasurement: 722db6550d1e6d552b08398b69a975ac61039338
   GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
-  LRABCSDK: a37d9144ef736fead9e148f528fba7b92d056131
+  LRABCSDK: 6aec3a846367b33b44bcd9ae1dcdea5a71eee7a5
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
 
-PODFILE CHECKSUM: f465f1d08fabd40611277e5991b303770b652584
+PODFILE CHECKSUM: 6b9a5bb295f758f4a12317129d3eb6fbcd6e620e
 
 COCOAPODS: 1.14.3

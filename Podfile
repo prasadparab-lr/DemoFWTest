@@ -16,6 +16,6 @@ target 'DemoFWTest' do
 
   # Pods for DemoFWTest
   pod 'Alamofire'
-  pod 'LRABCSDK', '1.0.1-u'
+  pod 'LRABCSDK', '1.0.2-u'
 #  pod 'DemoPod'
 end
